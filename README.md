@@ -51,7 +51,7 @@ cles
 1. **Start the server**
    ```sh
    cd server
-   node index.js
+   node indexs.js
    ```
    The server will run at `http://localhost:3001`.
 
@@ -59,7 +59,7 @@ cles
    In a new terminal:
    ```sh
    cd client
-   node index.js
+   node indexc.js
    ```
 
 3. **Usage**
@@ -69,10 +69,10 @@ cles
 ## Project Structure
 ```
 client/
-  index.js
+  indexc.js
   package.json
 server/
-  index.js
+  indexs.js
   mcp.tool.js
   package.json
 ```
